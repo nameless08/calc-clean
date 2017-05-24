@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>mini</title>
+		
+	<meta name="description" content='<?echo $descr_page;?>' />
+	<meta name="keywords" content='<?echo $keywords_page;?>' />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  -->
+
+	<link rel="stylesheet" href="pub/css/normalize.css">
+	<link rel="stylesheet" href="pub/css/grid.css">
+	
+	<link rel="stylesheet" href="pub/css/main.css">
+
+	<script src="pub/js/modernizr-2.8.3.min.js"></script>
+
+</head>
+
+<body style="background-color: #ecf0f3;">
+
+
+<div class="line calc">
+
+	<div class="wr wr_calc">
+
+		<div class="line">
+
+			<div class="un-30">
+				Вид уборки:
+			</div>
+
+			<div class="un-70 un-70_type-clean">
+				<div id="generalClean" data-bet="50">Генеральная</div>
+				<div id="afterRepairClean" data-bet="60">После ремонта</div>
+				<div id="expressClean" data-bet="35">Экспресс</div>
+				<div id="regularClean" data-bet="30">Регулярная</div>
+				<div id="glazingFacades" data-bet="40">Фасады, остекления</div>
+				<div id="dryCleanCarpet" data-bet="50">Химчистка ковролина</div>
+			</div>
+
+		</div>
+
+		<div class="line">
+
+			<div class="un-30">Площадь, м2:</div>
+
+			<div class="un-70">
+				<input type="number"><input onchange="alert(this.value)" type="range" min="30" max="10000" step="1">
+			</div>
+			
+		</div>
+		
+		<div class="line">
+
+			<div class="un-30">Дополнительные услуги:</div>
+
+			<div class="un-70 un-70_add-services">
+				<div id="windowClean" data-ratio="1.6">Мойка окон</div>
+				<div id="ironing" data-ratio="500">Глажка одежды</div>
+				<div id="washingEquipment" data-ratio="400">Мойка техники</div>
+				<div id="dryCleanFurniture" data-ratio="1200">Химчистка мягкой мебели</div>
+			</div>
+			
+		</div>
+
+		<div class="line">
+
+			<div class="un-30">Выезд за КАД, км:</div>
+
+			<div class="un-70">
+				<input type="number">
+			</div>
+			
+		</div>
+
+		<div class="line">
+
+			<div class="un-50">Ориентировочная стоимость уборки:</div>
+
+			<div class="un-50">0 рублей</div>
+			
+		</div>
+
+		<div class="line">
+
+			<input type="tel">
+			<input type="submit" value="Получить точный расчет">
+			
+		</div>
+
+	</div>
+
+</div>
+
+
+<script src="pub/js/jquery-1.11.2.min.js"></script>
+<script src="pub/js/jquery-migrate-1.2.1.min.js"></script>
+
+<script src="pub/js/main.js"></script>
+
+<script>
+
+	'use strict';
+
+	;(function($, undefined){ 
+
+
+	})(jQuery);
+
+</script>
+
+
+</body>
+</html>
